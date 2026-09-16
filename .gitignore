@@ -5,6 +5,13 @@ node_modules/
 
 # Expo
 .expo/
+.expo-test-output/
+.expo-test-output-logo/
+.expo-test-auth/
+.expo-test-image-upload/
+.expo-test-auth-fix/
+.expo-test-url-field/
+.expo-test-structure/
 dist/
 web-build/
 expo-env.d.ts
@@ -31,6 +38,7 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
 
 # typescript
